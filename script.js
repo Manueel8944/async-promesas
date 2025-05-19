@@ -17,7 +17,7 @@ async function main() {
   let nombre = await preguntar('¿Cuál es tu nombre? ');
   let edad = await preguntar('¿Cuántos años tienes? ');
 
-  console.log(`¡Hola, ${nombre}! Tienes ${edad} años. `);
+  console.log("¡Hola, " + nombre + ". Tienes " + edad + " años.");
 
   rl.close(); 
 }
