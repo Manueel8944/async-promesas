@@ -14,8 +14,8 @@ function preguntar(texto) {
 }
 
 async function main() {
-  let nombre = await preguntar('¿Cuál es tu nombre? ');
-  let edad = await preguntar('¿Cuántos años tienes? ');
+  let nombre = await preguntar('¿Cuál es tu nombre?: ');
+  let edad = await preguntar('¿Cuántos años tienes?: ');
 
   console.log("¡Hola, " + nombre + ". Tienes " + edad + " años.");
 
